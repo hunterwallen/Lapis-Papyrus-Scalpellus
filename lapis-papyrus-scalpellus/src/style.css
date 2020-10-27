@@ -1,0 +1,109 @@
+body {
+  text-align: center;
+  background: black;
+  background-image: url('https://i.imgur.com/w8zxyQH.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
+  color: white;
+  }
+
+h1 {
+  padding: 40px;
+  margin: 0 auto;
+  margin-top: 80px;
+  background: rgba(0, 0, 0, .5);
+  max-width: 500px;
+  
+}
+
+h2 {
+  padding: 30px;
+  background: rgba(0, 0, 0, .5);
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+h4 {
+  padding: 10px 30px;
+  background: rgba(0, 0, 0, .5);
+  max-width: 300px;
+  margin: 0 auto;
+  font-size: 25px;
+}
+
+div{
+  background: rgba(0, 0, 0, .5);
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.buttons {
+  color: black;
+  display: inline-block;
+  background: white;
+  border: none;
+  height: 50px;
+  width: 120px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+p {
+  font-size: 25px;
+  background: rgba(0, 0, 0, .5);
+  max-width: 300px;
+  margin: 0 auto;  
+}
+
+@media (max-width: 500px) {
+
+h1 {
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 22px;
+  background: rgba(100, 100, 100, .7);
+  max-width: 200px;  
+}
+
+h2 {
+  padding: 10px;
+  background: rgba(100, 100, 100, .7);
+  max-width: 200px;
+  margin: 0 auto;
+  font-size: 18px
+}
+
+h4 {
+  padding: 10px;
+  background: rgba(0, 0, 0, .5);
+  max-width: 200px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+  
+  div{
+  background: rgba(0, 0, 0, .5);
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.buttons {
+  height: 25px;
+  width: 80px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+p {
+  font-size: 18px;
+  background: rgba(100, 100, 100, .7);
+  max-width: 200px;
+  margin: 0 auto;  
+  padding: 10px;
+}
+  
+}
+
